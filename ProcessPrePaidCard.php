@@ -193,7 +193,7 @@ function processTransaction($prePaidCards,$prePaidConfig)
 					O.lastName IS NOT NULL AND
 					O.address1 IS NOT NULL AND
 					O.city IS NOT NULL AND
-					O.state IS NOT NULL ANDd
+					O.state IS NOT NULL AND
 					O.postalCode IS NOT NULL AND
 					O.country IS NOT NULL
 				LIMIT 1
